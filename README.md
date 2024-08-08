@@ -33,7 +33,6 @@
     <script src="script.js"></script>
 </body>
 </html>
-
 body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(to right, #74ebd5, #ACB6E5);
@@ -87,7 +86,6 @@ button {
 button:hover {
     background-color: #ACB6E5;
 }
-
 const questions = [
     {
         question: "You’re in charge of inventory management. You notice that a particular item isn't selling well. What should you do?",
@@ -151,4 +149,3 @@ function showResults() {
     document.getElementById('resultPage').classList.remove('hidden');
     document.getElementById('score').textContent = `You scored ${score} out of ${questions.length}.`;
 }
-
